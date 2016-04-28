@@ -1,0 +1,1 @@
+avconv -ss 00:25:00 -t 0.1 -i 21.Spieltag_B04_WOB.mp4 -vsync 1 -r 100 -crf 12 -q:v 1 -an -y ./Extracted%d.tif
